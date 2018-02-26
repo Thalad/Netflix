@@ -2375,6 +2375,7 @@
 192.168.99.1 - - [23/Feb/2018:15:43:46 +0000] "POST /app_dev.php/sign-in HTTP/1.1" 302 432 "http://192.168.99.100:8082/app_dev.php/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
 192.168.99.1 - - [23/Feb/2018:15:43:48 +0000] "GET /app_dev.php/films HTTP/1.1" 200 41988 "http://192.168.99.100:8082/app_dev.php/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
 192.168.99.1 - - [23/Feb/2018:15:43:50 +0000] "GET /app_dev.php/_wdt/d911b6 HTTP/1.1" 200 22314 "http://192.168.99.100:8082/app_dev.php/films" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+<<<<<<< HEAD
 172.25.0.1 - - [26/Feb/2018:10:24:25 +0000] "GET /app_dev.php/hello/test HTTP/1.1" 200 2108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
 172.25.0.1 - - [26/Feb/2018:10:24:25 +0000] "GET /favicon.ico HTTP/1.1" 200 6518 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
 172.25.0.1 - - [26/Feb/2018:10:25:27 +0000] "GET /app_dev.php/hello/test HTTP/1.1" 200 2108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
@@ -2388,3 +2389,7 @@
 172.25.0.1 - - [26/Feb/2018:10:36:36 +0000] "GET /app_dev.php/ HTTP/1.1" 200 2108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
 172.25.0.1 - - [26/Feb/2018:10:36:37 +0000] "GET /app_dev.php/ HTTP/1.1" 200 2108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
 172.25.0.1 - - [26/Feb/2018:10:36:37 +0000] "GET /app_dev.php/ HTTP/1.1" 200 2108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+=======
+192.168.99.1 - - [26/Feb/2018:10:25:06 +0000] "GET /app_dev.php/films HTTP/1.1" 302 440 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+192.168.99.1 - - [26/Feb/2018:10:25:09 +0000] "GET /app_dev.php/sign-in HTTP/1.1" 200 328 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278

@@ -9,15 +9,35 @@ class UserFixtures extends Fixture{
 
 
     public function load(ObjectManager $manager){
-        $user = new User();
-        $user
-            ->setEmail('hamza@mail.fr')
-            ->setFirstName('Hamza')
-            ->setLastName('Krichel')
-            //password: Test
-            ->setPassword('$2y$10$kvLmaYsbNU/ENeRmeTuyVumlhaI0J2oZqokGlE0qiUOzdTGX.uViO');
 
-        $manager->persist($user);
+        $users = [
+            [
+                'email' => 'ttalbiadil@gmail.com',
+                'firstName' => 'Aadil',
+                'lastName' => 'Ttalbi',
+                //password: Test
+                'password' => '$2y$10$kvLmaYsbNU/ENeRmeTuyVumlhaI0J2oZqokGlE0qiUOzdTGX.uViO',
+            ],
+            [
+                'email' => 'hamza@mail.fr',
+                'firstName' => 'Hamza',
+                'lastName' => 'Krichel',
+                //password: Test
+                'password' => '$2y$10$kvLmaYsbNU/ENeRmeTuyVumlhaI0J2oZqokGlE0qiUOzdTGX.uViO',
+            ],
+        ];
+
+        foreach ($users as $user) {
+
+            $project = new User();
+            $project
+                ->setEmail($user['email'])
+                ->setFirstName($user['firstName'])
+                ->setLastName($user['lastName'])
+                ->setPassword($user['password']);
+            $manager->persist($project);
+        }
+
         $manager->flush();
     }
 }

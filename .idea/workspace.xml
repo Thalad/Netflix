@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db9ca79a-bec6-4fdf-89a4-c249b73fca85" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/cour1.iml" afterPath="$PROJECT_DIR$/.idea/cour1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" afterPath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,9 +23,15 @@
     <pharConfigPath>$PROJECT_DIR$/site/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DefaultControllerTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/tests/AppBundle/Controller/DefaultControllerTest.php">
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="listFilm.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/app/Resources/views/film/listFilm.html.twig">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -30,6 +40,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,6 +56,103 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+=======
+      <file leaf-file-name="FilmFixtures.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/FilmFixtures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="e#41#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Film.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2300">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding>
+                <element signature="e#36#49#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2725">
+              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding>
+                <element signature="e#36#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/SecurityController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="37" />
+              <folding>
+                <element signature="e#39#98#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserFixtures.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="e#41#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/app/Resources/views/security/login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
               <folding />
             </state>
           </provider>
@@ -78,6 +186,7 @@
         <option value="$PROJECT_DIR$/site/src/AppBundle/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/site/app/config/security.yml" />
         <option value="$PROJECT_DIR$/site/app/Resources/views/film/listFilm.html.twig" />
+        <option value="$PROJECT_DIR$/site/.gitignore" />
       </list>
     </option>
   </component>
@@ -185,12 +294,15 @@
               <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
             </path>
             <path>
               <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
             </path>
           </expand>
           <select />
@@ -248,12 +360,20 @@
       <workItem from="1519381200580" duration="44000" />
       <workItem from="1519381269552" duration="343000" />
       <workItem from="1519381647404" duration="9865000" />
+<<<<<<< HEAD
       <workItem from="1519640567586" duration="769000" />
+=======
+      <workItem from="1519641106247" duration="26000" />
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="12014000" />
+=======
+    <option name="totallyTimeSpent" value="11271000" />
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="23" width="1245" height="740" extended-state="0" />
@@ -264,12 +384,16 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -311,6 +435,99 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/site/app/Resources/views/film/listFilm.html.twig">
+<<<<<<< HEAD
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/FilmFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="e#41#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2725">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#39#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#41#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/app/Resources/views/security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
@@ -320,14 +537,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="510">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/FilmFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="459">
           <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="39" />
           <folding>
@@ -341,11 +564,16 @@
         <state relative-caret-position="425">
           <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1564">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
@@ -369,6 +597,10 @@
         <state relative-caret-position="425">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="33" />
           <folding />
+=======
+        <state relative-caret-position="583">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
         </state>
       </provider>
     </entry>
@@ -443,10 +675,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/site/app/config/parameters.yml" />
     <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
+=======
+    <entry file="file://$PROJECT_DIR$/site/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="e#36#49#0#PHP" expanded="false" />
@@ -456,7 +701,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1853">
+=======
+        <state relative-caret-position="2725">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
             <element signature="e#36#68#0#PHP" expanded="false" />
@@ -466,7 +715,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="425">
+=======
+        <state relative-caret-position="625">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="33" />
           <folding />
         </state>
@@ -474,7 +727,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="136">
+=======
+        <state relative-caret-position="200">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="e#39#98#0#PHP" expanded="false" />
@@ -484,7 +741,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
+=======
+        <state relative-caret-position="500">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#41#67#0#PHP" expanded="false" />
@@ -494,7 +755,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="425">
+=======
+        <state relative-caret-position="625">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding />
         </state>
@@ -502,7 +767,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/FilmFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="459">
+=======
+        <state relative-caret-position="675">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="e#41#67#0#PHP" expanded="false" />
@@ -520,12 +789,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/app/Resources/views/security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="136">
+=======
+        <state relative-caret-position="200">
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/site/tests/AppBundle/Controller/DefaultControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -557,6 +831,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/site/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
           <folding />
         </state>
       </provider>
