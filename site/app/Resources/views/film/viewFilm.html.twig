@@ -5,11 +5,11 @@
 <body>
     <h1>Detail du film</h1>
         <a href="/app_dev.php/sign-out">logout</a>
-        <h2>{{ film.name }}</h2>
-        <p>{{ film.description }}</p>
-        <h3>{{ film.date|date("d/Y") }}</h3>
-        <h3>{{ film.actor }}</h3>
-        <h3>{{ film.note }}</h3>
+        <h2>TITRE : {{ film.name }}</h2>
+        <h3>DATE : {{ film.date|date("d/Y") }}</h3>
+        <h3>ACTEURS : {{ film.actor }}</h3>
+        <h3>NOTE : {{ film.note }}/10</h3>
+        <p>DESCRIPTION : {{ film.description }}</p>
          <a href="{{ path('films_list')}}">Liste des films</a>
     </body>
 </html>
