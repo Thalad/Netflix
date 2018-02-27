@@ -125,11 +125,6 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 return $this->mergeDefaults(array_replace($matches, array('_route' => 'film_view')), array (  '_controller' => 'AppBundle\\Controller\\DefaultController::viewAction',));
             }
 
-            // film_add
-            if ('/films/add' === $pathinfo) {
-                return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::addAction',  '_route' => 'film_add',);
-            }
-
         }
 
         // login
@@ -140,6 +135,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         // logout
         if ('/sign-out' === $pathinfo) {
             return array (  '_controller' => 'AppBundle\\Controller\\SecurityController::logoutAction',  '_route' => 'logout',);
+        }
+
+        // register
+        if ('/register' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\RegistrationController::registerAction',  '_route' => 'register',);
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

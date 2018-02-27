@@ -7,6 +7,7 @@ use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
 class SecurityController extends Controller
 {
+
     /**
      * @Route("/sign-in", name="login")
      * @param AuthenticationUtils $authUtils
