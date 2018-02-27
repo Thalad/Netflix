@@ -1,0 +1,60 @@
+body {
+    background-color: #000000;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul, ul li {
+    list-style-type: none;
+}
+
+form div {
+    margin-bottom: 1em;
+}
+form label {
+    margin-right: 1em;
+}
+form button {
+    background-color: red;
+    outline: none;
+    border: 0;
+    padding: .6em 2em;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+}
+.clear {
+    clear: both;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    display: inline-block;
+    padding: 1em;
+}
+.header .logo {
+    width: 150px;
+    float: left;
+}
+.header .logo img {
+    width: 100%;
+}
+
+.header .main-menu {
+    width: calc(100% - 150px);
+    float: left;
+}
+.header .main-menu ul li {
+    float: left;
+}
+.header .main-menu ul {
+    float: right;
+}
+.header .main-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1em;
+}
+/* End Header */

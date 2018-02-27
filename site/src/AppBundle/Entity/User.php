@@ -13,6 +13,16 @@ use Symfony\Component\Security\Core\User\UserInterface;
  */
 class User implements UserInterface
 {
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->isAdmin = 0;
+    }
+
+
     /**
      * @var int
      *
@@ -49,6 +59,13 @@ class User implements UserInterface
      * @ORM\Column(name="password", type="string", length=60)
      */
     private $password;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="isAdmin", type="boolean")
+     */
+    private $isAdmin;
 
 
     /**
@@ -157,6 +174,30 @@ class User implements UserInterface
         return $this->password;
     }
 
+    /**
+     * Set isAdmin
+     *
+     * @param boolean $isAdmin
+     *
+     * @return User
+     */
+    public function setIsAdmin($isAdmin)
+    {
+        $this->isAdmin = $isAdmin;
+
+        return $this;
+    }
+
+    /**
+     * Get isAdmin
+     *
+     * @return bool
+     */
+    public function getIsAdmin()
+    {
+        return $this->isAdmin;
+    }
+
 
     public function getUsername()
     {
@@ -170,7 +211,12 @@ class User implements UserInterface
 
     public function getRoles()
     {
-        return ['ROLE_USER'];
+        $roles = ['ROLE_USER'];
+
+        if($this->isAdmin == 1){
+            $roles [] = 'ROLE_ADMIN';
+        }
+        return $roles;
     }
 
     public function eraseCredentials()
