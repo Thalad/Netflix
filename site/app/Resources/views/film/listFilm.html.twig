@@ -4,13 +4,10 @@
     </head>
     <body>
     <h1>Liste des films</h1>
-    <button type="submit">logout</button>
-    {% for film in films %}
-        <h2>{{ film.name }}</h2>
-        <h3>{{ film.description }}</h3>
-        <h4>{{ film.date|date("d/Y") }}</h4>
-        <h5>{{ film.actor }}</h5>
-        <h6>{{ film.note }}</h6>
-    {% endfor %}
+        <a href="{{ path('logout') }}">logout</a>
+        {% for film in films %}
+            <h2>{{ film.name }}</h2>
+            <a href="{{ path('film_view', {'id': film.id}) }}">Detail du film</a>
+        {% endfor %}
     </body>
 </html>

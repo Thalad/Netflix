@@ -114,9 +114,22 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return $ret;
         }
 
-        // films_list
-        if ('/films' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::listAction',  '_route' => 'films_list',);
+        if (0 === strpos($pathinfo, '/films')) {
+            // films_list
+            if ('/films' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::listAction',  '_route' => 'films_list',);
+            }
+
+            // film_view
+            if (preg_match('#^/films/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'film_view')), array (  '_controller' => 'AppBundle\\Controller\\DefaultController::viewAction',));
+            }
+
+            // film_add
+            if ('/films/add' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::addAction',  '_route' => 'film_add',);
+            }
+
         }
 
         // login
