@@ -2582,3 +2582,18 @@
 =======
 >>>>>>> 042923868c964f12c5c903f6ef520ef2a5549278
 >>>>>>> 21f55f175782ede07e84139ff0edc418697d42c6
+172.26.0.1 - - [27/Feb/2018:10:08:51 +0000] "GET /app_dev.php/register HTTP/1.1" 200 2108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:10:28:04 +0000] "GET /app_dev.php/register HTTP/1.1" 500 48384 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:10:28:10 +0000] "GET /app_dev.php/register HTTP/1.1" 500 48384 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:12:37 +0000] "GET / HTTP/1.1" 200 4596 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+172.26.0.1 - - [27/Feb/2018:14:12:37 +0000] "GET /favicon.ico HTTP/1.1" 200 6518 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36"
+172.26.0.1 - - [27/Feb/2018:14:13:08 +0000] "GET /app_dev.php/register HTTP/1.1" 500 48384 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:13:13 +0000] "GET /app_dev.php/register HTTP/1.1" 500 48384 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:13:18 +0000] "GET /app_dev.php/register HTTP/1.1" 500 48384 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:15:16 +0000] "GET /app_dev.php/register HTTP/1.1" 500 48384 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:19:10 +0000] "GET /app_dev.php/register HTTP/1.1" 500 48384 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:19:24 +0000] "GET /app_dev.php/sign-in HTTP/1.1" 500 48384 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:22:26 +0000] "GET /app_dev.php/register HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:23:26 +0000] "GET /app_dev.php/register HTTP/1.1" 504 183 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:24:57 +0000] "GET /app_dev.php/register HTTP/1.1" 200 1120 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+172.26.0.1 - - [27/Feb/2018:14:25:47 +0000] "GET /app_dev.php/register HTTP/1.1" 200 1120 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
