@@ -23,7 +23,7 @@ class FilmsType extends AbstractType
             ->add('date', DateType:: class)
             ->add('description', TextType:: class)
             ->add('note', NumberType:: class)
-            ->add('categories', EntityType::class, array(
+            ->add('category', EntityType::class, array(
                 'class' => 'AppBundle:Category',
                 'choice_label' => 'label',
                 'multiple' => true,

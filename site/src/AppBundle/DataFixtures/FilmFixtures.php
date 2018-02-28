@@ -16,7 +16,7 @@ class FilmFixtures extends Fixture
                 'date' => new \DateTime('2017-01-01'),
                 'actor' => 'Adil Bond',
                 'note' => '9',
-                'category_id' => $this->getReference('category') ,
+                'category_id' => $this->getReference('category1') ,
             ],
             [
                 'name' => 'Film #2',
@@ -24,7 +24,7 @@ class FilmFixtures extends Fixture
                 'date' => new \DateTime('2017-01-01'),
                 'actor' => 'Adil Bond',
                 'note' => '9',
-                'category_id' => $this->getReference('category') ,
+                'category_id' => $this->getReference('category2') ,
             ],
             [
                 'name' => 'Film #3',
@@ -32,7 +32,7 @@ class FilmFixtures extends Fixture
                 'date' => new \DateTime('2017-01-01'),
                 'actor' => 'Adil Bond',
                 'note' => '9',
-                'category_id' => $this->getReference('category') ,
+                'category_id' => $this->getReference('category3') ,
             ],
             [
                 'name' => 'Film #4',
@@ -40,7 +40,7 @@ class FilmFixtures extends Fixture
                 'date' => new \DateTime('2017-01-01'),
                 'actor' => 'Adil Bond',
                 'note' => '9',
-                'category_id' => $this->getReference('category') ,
+                'category_id' => $this->getReference('category1') ,
 
         ],
         ];
