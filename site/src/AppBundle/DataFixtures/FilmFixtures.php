@@ -16,6 +16,7 @@ class FilmFixtures extends Fixture
                 'date' => new \DateTime('2017-01-01'),
                 'actor' => 'Adil Bond',
                 'note' => '9',
+                'category_id' => $this->getReference('category') ,
             ],
             [
                 'name' => 'Film #2',
@@ -23,6 +24,7 @@ class FilmFixtures extends Fixture
                 'date' => new \DateTime('2017-01-01'),
                 'actor' => 'Adil Bond',
                 'note' => '9',
+                'category_id' => $this->getReference('category') ,
             ],
             [
                 'name' => 'Film #3',
@@ -30,6 +32,7 @@ class FilmFixtures extends Fixture
                 'date' => new \DateTime('2017-01-01'),
                 'actor' => 'Adil Bond',
                 'note' => '9',
+                'category_id' => $this->getReference('category') ,
             ],
             [
                 'name' => 'Film #4',
@@ -37,7 +40,9 @@ class FilmFixtures extends Fixture
                 'date' => new \DateTime('2017-01-01'),
                 'actor' => 'Adil Bond',
                 'note' => '9',
-            ],
+                'category_id' => $this->getReference('category') ,
+
+        ],
         ];
 
         foreach ($films as $film) {
@@ -48,7 +53,8 @@ class FilmFixtures extends Fixture
                 ->setDescription($film['description'])
                 ->setDate($film['date'])
                 ->setActor($film['actor'])
-                ->setNote($film['note']);
+                ->setNote($film['note'])
+                ->setCategory($film['category_id']);
             $manager->persist($project);
         }
 
