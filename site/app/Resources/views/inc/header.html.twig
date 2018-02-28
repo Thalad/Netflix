@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome !{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    <link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+<div id="topheader" class="header">
+    <div class="logo">
+        <a href="{{ path('homepage') }}"><img src="{{ asset('img/logo.png') }}" alt="Netflix"/></a>
+    </div>
+    <div class="main-menu">
+        <ul>
+            <li><a href="{{ path('register') }}">Register</a></li>
+            <li><a href="{{ path('login') }}">Login</a></li>
+            <li><a href="{{ path('film_add') }}">Film</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>

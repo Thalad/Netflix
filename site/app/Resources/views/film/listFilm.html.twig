@@ -1,13 +1,9 @@
-<html>
-    <head>
-        <title>Liste des films</title>
-    </head>
-    <body>
-    <h1>Liste des films</h1>
+{% include 'inc/header.html.twig' %}
+
+<h1>Liste des films</h1>
         <a href="{{ path('logout') }}">logout</a>
         {% for film in films %}
             <h2>{{ film.name }}</h2>
             <a href="{{ path('film_view', {'id': film.id}) }}">Detail du film</a>
         {% endfor %}
-    </body>
-</html>
+{% include 'inc/footer.html.twig' %}

@@ -1,9 +1,6 @@
-<html>
-    <head>
-        <title>Detail du film</title>
-    </head>
-<body>
-    <h1>Detail du film</h1>
+{% include 'inc/header.html.twig' %}
+
+<h1>Detail du film</h1>
         <a href="/app_dev.php/sign-out">logout</a>
         <h2>TITRE : {{ film.name }}</h2>
         <h3>DATE : {{ film.date|date("d/Y") }}</h3>
@@ -11,5 +8,4 @@
         <h3>NOTE : {{ film.note }}/10</h3>
         <p>DESCRIPTION : {{ film.description }}</p>
          <a href="{{ path('films_list')}}">Liste des films</a>
-    </body>
-</html>
+{% include 'inc/footer.html.twig' %}

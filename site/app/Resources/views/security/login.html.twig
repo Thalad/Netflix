@@ -1,10 +1,17 @@
+{% include 'inc/header.html.twig' %}
 {% if error %}
     <div>{{ error.messageKey }}</div>
 {% endif %}
+<h1>Login</h1>
 <form action="{{ path('login') }}" method="post">
-    <label for="username">Email:</label>
-    <input type="text" id="username" name="_username" value="{{ last_username }} " />
-    <label for="password">Mot de passe:</label>
-    <input type="password" id="password" name="_password" />
+    <div>
+        <label for="username">Email:</label>
+        <input type="text" id="username" name="_username" value="{{ last_username }} " />
+    </div>
+    <div>
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="_password" />
+    </div>
     <button type="submit">login</button>
 </form>
+{% include 'inc/footer.html.twig' %}
