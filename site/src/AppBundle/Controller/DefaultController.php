@@ -56,6 +56,15 @@ class DefaultController extends Controller
         return $this->render('AppBundle:Default:footer.html.twig');
     }
 
+    // menu cat
+    public function menuAction()
+    {
+        $categories = [
+            'action', 'drame', 'horreur', 'comique'
+        ];
+        return $this->render('inc/menuCategories.html.twig', ['categories' => $categories]);
+    }
+
     /**
      * @Route("/films/add", name="film_add")
      */
