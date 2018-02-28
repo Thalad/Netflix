@@ -1,9 +1,10 @@
-{% include 'inc/header.html.twig' %}
+{% extends "inc/layout.html.twig" %}
 
-<h1>Liste des films</h1>
-        <a href="{{ path('logout') }}">logout</a>
-        {% for film in films %}
-            <h2>{{ film.name }}</h2>
-            <a href="{{ path('film_view', {'id': film.id}) }}">Detail du film</a>
-        {% endfor %}
-{% include 'inc/footer.html.twig' %}
+{% block content %}
+    <h1>Liste des films</h1>
+    <a href="{{ path('logout') }}">logout</a>
+    {% for film in films %}
+        <h2>{{ film.name }}</h2>
+        <a href="{{ path('film_view', {'id': film.id}) }}">Detail du film</a>
+    {% endfor %}
+{% endblock %}

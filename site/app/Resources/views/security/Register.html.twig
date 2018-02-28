@@ -1,14 +1,14 @@
-{% include 'inc/header.html.twig' %}
+{% extends "inc/layout.html.twig" %}
 
-<h1>Register</h1>
-{{ form_start(form) }}
-{{ form_row(form.lastName) }}
-{{ form_row(form.firstName) }}
-{{ form_row(form.email) }}
-{{ form_row(form.password.first) }}
-{{ form_row(form.password.second) }}
+{% block content %}
+    <h1>Register</h1>
+    {{ form_start(form) }}
+    {{ form_row(form.lastName) }}
+    {{ form_row(form.firstName) }}
+    {{ form_row(form.email) }}
+    {{ form_row(form.password.first) }}
+    {{ form_row(form.password.second) }}
 
-<button type="submit">Register!</button>
-{{ form_end(form) }}
-
-{% include 'inc/footer.html.twig' %}
+    <button type="submit">Register!</button>
+    {{ form_end(form) }}
+{% endblock %}
