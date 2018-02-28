@@ -46,6 +46,7 @@ class DefaultController extends Controller
         ]);
     }
 
+
     // menu cat
     public function menuAction()
     {
@@ -54,4 +55,5 @@ class DefaultController extends Controller
         ];
         return $this->render('inc/menuCategories.html.twig', ['categories' => $categories]);
     }
+
 }

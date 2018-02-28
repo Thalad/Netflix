@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Film;
+use AppBundle\Form\FilmsType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
@@ -21,14 +22,7 @@ class AdminController extends Controller
     public function addAction(Request $request)
     {
         $film = new Film();
-        $form = $this->createFormBuilder( $film)
-            ->add( 'name', TextType:: class)
-            ->add( 'actor', TextType:: class)
-            ->add( 'date', DateType:: class)
-            ->add( 'description', TextType:: class)
-            ->add( 'note', NumberType:: class)
-            ->add( 'save', SubmitType:: class, ['label' => 'Ajouter un film'])
-            ->getForm();
+        $form = $this->createForm(FilmsType:: class, $film);
         $form->handleRequest( $request);
 
         if ($form->isSubmitted() && $form->isValid()) {
