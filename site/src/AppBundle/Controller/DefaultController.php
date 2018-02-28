@@ -45,6 +45,8 @@ class DefaultController extends Controller
             'film' => $film
         ]);
     }
+<<<<<<< HEAD
+=======
 
     public function headerAction()
     {
@@ -83,4 +85,5 @@ class DefaultController extends Controller
             'form' => $form->createView()
         ]);
     }*/
+>>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
 }

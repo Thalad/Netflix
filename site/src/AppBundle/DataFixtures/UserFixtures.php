@@ -17,6 +17,7 @@ class UserFixtures extends Fixture{
                 'lastName' => 'Ttalbi',
                 //password: Test
                 'password' => '$2y$10$kvLmaYsbNU/ENeRmeTuyVumlhaI0J2oZqokGlE0qiUOzdTGX.uViO',
+                'isAdmin' => '0',
             ],
             [
                 'email' => 'hamza@mail.fr',
@@ -24,6 +25,7 @@ class UserFixtures extends Fixture{
                 'lastName' => 'Krichel',
                 //password: Test
                 'password' => '$2y$10$kvLmaYsbNU/ENeRmeTuyVumlhaI0J2oZqokGlE0qiUOzdTGX.uViO',
+                'isAdmin' => '1',
             ],
         ];
 
@@ -34,7 +36,8 @@ class UserFixtures extends Fixture{
                 ->setEmail($user['email'])
                 ->setFirstName($user['firstName'])
                 ->setLastName($user['lastName'])
-                ->setPassword($user['password']);
+                ->setPassword($user['password'])
+                ->setIsAdmin($user['isAdmin']);
             $manager->persist($project);
         }
 

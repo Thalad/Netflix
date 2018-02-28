@@ -57,6 +57,12 @@ class Film
      */
     private $note;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Category", inversedBy="films")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $category;
+
 
     /**
      * Get id
