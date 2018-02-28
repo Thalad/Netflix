@@ -26,8 +26,8 @@ class FilmsType extends AbstractType
             ->add('category', EntityType::class, array(
                 'class' => 'AppBundle:Category',
                 'choice_label' => 'label',
-                'multiple' => true,
-                'expanded' => true,
+                'multiple' => false,
+                'expanded' => false,
             ))
             ->add('save', SubmitType:: class, ['label' => 'Ajouter un film']);
     }
