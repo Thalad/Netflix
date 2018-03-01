@@ -24,9 +24,23 @@ class Season
     /**
      * @var string
      *
-     * @ORM\Column(name="name", type="string", length=255)
+     * @ORM\Column(name="label", type="string", length=255)
      */
-    private $name;
+    private $label;
+
+
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Episode", mappedBy="season")
+     */
+    private $episodes;
+
+    /**
+     * @return mixed
+     */
+    public function getEpisodes()
+    {
+        return $this->episodes;
+    }
 
     /**
      * @return mixed
@@ -62,27 +76,51 @@ class Season
     }
 
     /**
-     * Set name
+     * Set label
      *
-     * @param string $name
+     * @param string $label
      *
      * @return Season
      */
-    public function setName($name)
+    public function setLabel($label)
     {
-        $this->name = $name;
+        $this->label = $label;
 
         return $this;
     }
 
     /**
-     * Get name
+     * Get label
      *
      * @return string
      */
-    public function getName()
+    public function getLabel()
     {
-        return $this->name;
+        return $this->label;
+    }
+
+    /**
+     * Add episode
+     *
+     * @param \AppBundle\Entity\Episode $episode
+     *
+     * @return Episode
+     */
+    public function addEpisode(\AppBundle\Entity\Episode $episode)
+    {
+        $this->episodes[] = $episode;
+
+        return $this;
+    }
+
+    /**
+     * Remove episode
+     *
+     * @param \AppBundle\Entity\Episode $episode
+     */
+    public function removeFilm(\AppBundle\Entity\Episode $episode)
+    {
+        $this->episodes->removeElement($episode);
     }
 }
 

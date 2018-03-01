@@ -11,7 +11,7 @@ use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class SeasonsType extends AbstractType
+class EpisodeType extends AbstractType
 {
 
     public function buildForm(FormBuilderInterface $builder, array $options)
@@ -19,10 +19,11 @@ class SeasonsType extends AbstractType
 
         $builder
             ->add('label', TextType:: class)
-            ->add('serie', EntityType::class, array(
-                'class' => 'AppBundle:Serie',
-                'choice_label' => 'name',
+            ->add('season', EntityType::class, array(
+                'class' => 'AppBundle:Season',
+                'choice_label' => 'label',
             ))
-            ->add('save', SubmitType:: class, ['label' => 'Ajouter une saison']);
+
+            ->add('save', SubmitType:: class, ['label' => 'Ajouter un épisode']);
     }
 }

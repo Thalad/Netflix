@@ -2,9 +2,11 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Episode;
 use AppBundle\Entity\Film;
 use AppBundle\Entity\Season;
 use AppBundle\Entity\Serie;
+use AppBundle\Form\EpisodeType;
 use AppBundle\Form\FilmsType;
 use AppBundle\Form\SeasonsType;
 use AppBundle\Form\SeriesType;
@@ -77,6 +79,28 @@ class AdminController extends Controller
 
             $em = $this->getDoctrine()->getManager();
             $em->persist($season);
+            $em->flush();
+            return $this->redirectToRoute( 'series_list');
+        }
+        return $this->render('admin/add.html.twig', [
+            'form' => $form->createView()
+        ]);
+    }
+
+    /**
+     * @Route("/admin/episodeAdd", name="episode_add")
+     */
+
+    public function addEpisodeAction(Request $request)
+    {
+        $episode= new Episode();
+        $form = $this->createForm(EpisodeType::class, $episode);
+        $form->handleRequest( $request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($episode);
             $em->flush();
             return $this->redirectToRoute( 'series_list');
         }
