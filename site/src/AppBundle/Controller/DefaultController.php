@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Film;
+use AppBundle\Entity\Serie;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -36,7 +37,7 @@ class DefaultController extends Controller
     /**
      * @Route("/films/{id}", name="film_view", requirements={"id"="\d+"})
      */
-    public function viewAction(int $id)
+    public function viewAction($id)
     {
         $em = $this->getDoctrine()->getManager();
         $film = $em->getRepository(Film:: class)
@@ -45,48 +46,28 @@ class DefaultController extends Controller
             'film' => $film
         ]);
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
-    public function headerAction()
-    {
-        return $this->render('AppBundle:Default:header.html.twig');
-    }
-
-    public function footerAction()
-    {
-        return $this->render('AppBundle:Default:footer.html.twig');
-    }
 
     // menu cat
     public function menuAction()
     {
         $categories = [
-            'action', 'drame', 'horreur', 'comique'
+            'action', 'drame', 'horreur', 'comique', 'categorie 1', 'categorie 2'
         ];
         return $this->render('inc/menuCategories.html.twig', ['categories' => $categories]);
     }
 
     /**
-     * @Route("/films/add", name="film_add")
+     * @Route("/series", name="series_list")
      */
-    /**public function addAction(Request $request)
+    public function listSerieAction()
     {
-        $film = new Film();
-        $form = $this->createForm(FilmType:: class, $film);
-        if ($form->isSubmitted() && $form->isValid()) {
-            $article = $form->getData();
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($article);
-            $em->flush();
-            return $this->redirectToRoute( 'film_list');
-        }
-        return $this->render('film/addFilm.html.twig', [
-            'form' => $form->createView()
+        $em = $this->getDoctrine()->getManager();
+        $series = $em->getRepository(Serie:: class)
+            ->findAll();
+        return $this->render('serie/listSerie.html.twig', [
+            'series' => $series
         ]);
-    }*/
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
->>>>>>> 0e50c51cc67b95cf750c5cb380538d7afea63a37
+    }
+
 }

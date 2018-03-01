@@ -3,7 +3,9 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Film;
+use AppBundle\Entity\Serie;
 use AppBundle\Form\FilmsType;
+use AppBundle\Form\SeriesType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
@@ -31,6 +33,28 @@ class AdminController extends Controller
             $em->persist($film);
             $em->flush();
             return $this->redirectToRoute( 'films_list');
+        }
+        return $this->render('admin/add.html.twig', [
+            'form' => $form->createView()
+        ]);
+    }
+
+    /**
+     * @Route("/admin/serieAdd", name="serie_add")
+     */
+
+    public function addFilmAction(Request $request)
+    {
+        $serie = new Serie();
+        $form = $this->createForm(SeriesType::class, $serie);
+        $form->handleRequest( $request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($serie);
+            $em->flush();
+            return $this->redirectToRoute( 'series_list');
         }
         return $this->render('admin/add.html.twig', [
             'form' => $form->createView()

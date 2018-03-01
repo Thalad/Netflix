@@ -21,13 +21,6 @@ class Category
     }
 
     /**
-     * @param mixed $films
-     */
-    public function setFilms($films)
-    {
-        $this->films = $films;
-    }
-    /**
      * @var int
      *
      * @ORM\Column(name="id", type="integer")
@@ -47,6 +40,19 @@ class Category
      * @ORM\OneToMany(targetEntity="AppBundle\Entity\Film", mappedBy="category")
      */
     private $films;
+
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Serie", mappedBy="category")
+     */
+    private $series;
+
+    /**
+     * @return mixed
+     */
+    public function getSeries()
+    {
+        return $this->series;
+    }
 
 
     /**
@@ -88,6 +94,7 @@ class Category
     public function __construct()
     {
         $this->films = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->series = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
@@ -112,5 +119,29 @@ class Category
     public function removeFilm(\AppBundle\Entity\Film $film)
     {
         $this->films->removeElement($film);
+    }
+
+    /**
+     * Add serie
+     *
+     * @param \AppBundle\Entity\Serie $serie
+     *
+     * @return Category
+     */
+    public function addSerie(\AppBundle\Entity\Serie $serie)
+    {
+        $this->series[] = $serie;
+
+        return $this;
+    }
+
+    /**
+     * Remove serie
+     *
+     * @param \AppBundle\Entity\Serie $serie
+     */
+    public function removeSerie(\AppBundle\Entity\Serie $serie)
+    {
+        $this->series->removeElement($serie);
     }
 }

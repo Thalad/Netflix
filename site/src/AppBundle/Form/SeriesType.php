@@ -11,7 +11,7 @@ use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class FilmsType extends AbstractType
+class SeriesType extends AbstractType
 {
 
     public function buildForm(FormBuilderInterface $builder, array $options)
@@ -27,6 +27,6 @@ class FilmsType extends AbstractType
                 'class' => 'AppBundle:Category',
                 'choice_label' => 'label',
             ))
-            ->add('save', SubmitType:: class, ['label' => 'Ajouter un film']);
+            ->add('save', SubmitType:: class, ['label' => 'Ajouter une serie']);
     }
 }

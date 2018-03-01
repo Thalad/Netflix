@@ -15,7 +15,23 @@ class CategoryFixtures extends Fixture{
 
         $manager->persist($category);
         $manager->flush();
-        $this->addReference('category', $category);
+        $this->addReference('category1', $category);
+
+        $category2 = new Category();
+        $category2
+            ->setLabel('Category #2');
+
+        $manager->persist($category2);
+        $manager->flush();
+        $this->addReference('category2', $category2);
+
+        $category3 = new Category();
+        $category3
+            ->setLabel('Category #3');
+
+        $manager->persist($category3);
+        $manager->flush();
+        $this->addReference('category3', $category3);
     }
     
 }

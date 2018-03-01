@@ -1,0 +1,9 @@
+{% extends "inc/layout.html.twig" %}
+
+{% block content %}
+    <h1>Liste des series</h1>
+    <a href="{{ path('logout') }}">logout</a>
+    {% for serie in series %}
+        <h2>{{ serie.name }}</h2>
+    {% endfor %}
+{% endblock %}
