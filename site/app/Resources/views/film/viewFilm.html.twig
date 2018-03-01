@@ -7,6 +7,7 @@
         <h3>DATE : {{ film.date|date("d/Y") }}</h3>
         <h3>ACTEURS : {{ film.actor }}</h3>
         <h3>NOTE : {{ film.note }}/10</h3>
+        <h3>GENRE : {{ film.category.label }}</h3>
         <p>DESCRIPTION : {{ film.description }}</p>
         <a href="{{ path('films_list')}}">Liste des films</a>
 {% endblock %}

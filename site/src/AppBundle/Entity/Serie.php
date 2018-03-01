@@ -65,6 +65,20 @@ class Serie
     /**
      * @return mixed
      */
+    public function getSeasons()
+    {
+        return $this->seasons;
+    }
+
+
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Season", mappedBy="serie")
+     */
+    private $seasons;
+
+    /**
+     * @return mixed
+     */
     public function getCategory()
     {
         return $this->category;
@@ -207,6 +221,30 @@ class Serie
     public function getDate()
     {
         return $this->date;
+    }
+
+    /**
+     * Add season
+     *
+     * @param \AppBundle\Entity\Season $season
+     *
+     * @return Serie
+     */
+    public function addFilm(\AppBundle\Entity\Season $season)
+    {
+        $this->seasons[] = $season;
+
+        return $this;
+    }
+
+    /**
+     * Remove season
+     *
+     * @param \AppBundle\Entity\Season $season
+     */
+    public function removeFilm(\AppBundle\Entity\Season $season)
+    {
+        $this->seasons->removeElement($season);
     }
 }
 
