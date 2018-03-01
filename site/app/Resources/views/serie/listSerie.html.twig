@@ -5,5 +5,6 @@
     <a href="{{ path('logout') }}">logout</a>
     {% for serie in series %}
         <h2>{{ serie.name }}</h2>
+        <a href="{{ path('serie_view', {'id': serie.id}) }}">Detail de la serie</a>
     {% endfor %}
 {% endblock %}
