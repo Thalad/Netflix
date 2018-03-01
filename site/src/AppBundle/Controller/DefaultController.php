@@ -57,6 +57,7 @@ class DefaultController extends Controller
         return $this->render('inc/menuCategories.html.twig', ['categories' => $categories]);
     }
 
+<<<<<<< HEAD
     /**
      * @Route("/series", name="series_list")
      */
@@ -70,4 +71,6 @@ class DefaultController extends Controller
         ]);
     }
 
+=======
+>>>>>>> c21fdc957745ffaff85307237ae623ed5d731e2a
 }
