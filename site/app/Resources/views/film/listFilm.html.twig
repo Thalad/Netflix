@@ -1,7 +1,7 @@
 {% extends "inc/layout.html.twig" %}
 
 {% block content %}
-    <h1>Films</h1><a class="button marginBottom" href="{{ path('categoryFilm_page') }}">Catégorie</a>
+    <h1>Films</h1><a class="button marginBottom" href="{{ path('categoryFilm_page') }}">Catégories</a>
     <div class="row list">
         {% for film in films %}
             <div class="col-md-4">

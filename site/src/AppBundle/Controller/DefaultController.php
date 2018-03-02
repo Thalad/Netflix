@@ -115,7 +115,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/films/category/{id}", name="categoryFilm_view", requirements={"id"="\d+"})
+     * @Route("/home/films/category/{id}", name="categoryFilm_view", requirements={"id"="\d+"})
      */
     public function viewCategoryFilm($id)
     {
@@ -128,7 +128,7 @@ class DefaultController extends Controller
     }
 
     /**
- * @Route("/series/category/{id}", name="categorySerie_view", requirements={"id"="\d+"})
+ * @Route("/home/series/category/{id}", name="categorySerie_view", requirements={"id"="\d+"})
  */
     public function viewCategorySerie($id)
     {
@@ -170,7 +170,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/", name="home_page")
+     * @Route("/home", name="home_page")
      */
 
     public function homePage()
