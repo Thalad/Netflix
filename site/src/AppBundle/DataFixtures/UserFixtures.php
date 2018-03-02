@@ -17,7 +17,7 @@ class UserFixtures extends Fixture{
                 'lastName' => 'Ttalbi',
                 //password: Test
                 'password' => '$2y$10$kvLmaYsbNU/ENeRmeTuyVumlhaI0J2oZqokGlE0qiUOzdTGX.uViO',
-                'isAdmin' => '0',
+                'isAdmin' => '1',
             ],
             [
                 'email' => 'hamza@mail.fr',

@@ -4,6 +4,7 @@ namespace AppBundle\Entity;
 
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Film
@@ -39,7 +40,22 @@ class Film
     /**
      * @var string
      *
-     * @ORM\Column(name="description", type="string", length=255)
+     * @ORM\Column(name="image", type="string", length=255, nullable=true)
+     */
+    private $image;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="video", type="string", length=255, nullable=true)
+     * @Assert\File(mimeTypes={ "video/mpeg", "video/mp4", "video/quicktime", "video/webm", "video/x-ms-wmv", "video/x-msvideo" })
+     */
+    private $video;
+
+    /**
+     * @var text
+     *
+     * @ORM\Column(name="description", type="text", length=2555555)
      */
     private $description;
 
@@ -138,10 +154,34 @@ class Film
         return $this->date;
     }
 
+
+    /**
+     * Set image.
+     *
+     * @param string $image
+     *
+     * @return Film
+     */
+    public function setImage($image)
+    {
+        $this->image = $image;
+        return $this;
+    }
+    /**
+     * Get image.
+     *
+     * @return string
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+
     /**
      * Set description
      *
-     * @param string $description
+     * @param text $description
      *
      * @return Film
      */
@@ -155,7 +195,7 @@ class Film
     /**
      * Get description
      *
-     * @return string
+     * @return text
      */
     public function getDescription()
     {
@@ -208,5 +248,27 @@ class Film
     public function getNote()
     {
         return $this->note;
+    }
+
+    /**
+     * Set video.
+     *
+     * @param string|null $video
+     *
+     * @return Film
+     */
+    public function setVideo($video = null)
+    {
+        $this->video = $video;
+        return $this;
+    }
+    /**
+     * Get video.
+     *
+     * @return string|null
+     */
+    public function getVideo()
+    {
+        return $this->video;
     }
 }
