@@ -41,4 +41,4 @@ security:
         - { path: ^/films, roles: "ROLE_USER" }
         - { path: ^/series, roles: "ROLE_USER" }
         - { path: ^/category, roles: "ROLE_USER" }
-        - { path: ^/, roles: "ROLE_ADMIN" }
+        - { path: ^/admin, roles: "ROLE_ADMIN" }

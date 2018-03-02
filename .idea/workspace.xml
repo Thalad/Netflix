@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dac0e43-2135-41e4-9942-42c0abe42692" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/app/Resources/views/category/categoryFilmView.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/app/Resources/views/category/categorySerieView.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/src/AppBundle/Form/CategoryType.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/Netflix-me.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/Netflix.iml" afterPath="$PROJECT_DIR$/.idea/Netflix.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/access.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/error.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/symfony_error.log" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docker/logs/symfony/dev.log" afterPath="$PROJECT_DIR$/docker/logs/symfony/dev.log" />
-      <change beforePath="$PROJECT_DIR$/site/app/Resources/views/category/categoryFilm.html.twig" afterPath="$PROJECT_DIR$/site/app/Resources/views/category/categoryFilm.html.twig" />
-      <change beforePath="$PROJECT_DIR$/site/app/Resources/views/category/categorySerie.html.twig" afterPath="$PROJECT_DIR$/site/app/Resources/views/category/categorySerie.html.twig" />
-      <change beforePath="$PROJECT_DIR$/site/app/Resources/views/film/listFilm.html.twig" afterPath="$PROJECT_DIR$/site/app/Resources/views/film/listFilm.html.twig" />
-      <change beforePath="$PROJECT_DIR$/site/app/Resources/views/serie/listSerie.html.twig" afterPath="$PROJECT_DIR$/site/app/Resources/views/serie/listSerie.html.twig" />
-      <change beforePath="$PROJECT_DIR$/site/src/AppBundle/Controller/AdminController.php" afterPath="$PROJECT_DIR$/site/src/AppBundle/Controller/AdminController.php" />
-      <change beforePath="$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php" />
+      <change beforePath="$PROJECT_DIR$/site/app/config/security.yml" afterPath="$PROJECT_DIR$/site/app/config/security.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,10 +17,28 @@
     <pharConfigPath>$PROJECT_DIR$/site/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/site/app/config/security.yml" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -89,7 +90,7 @@
       <path value="$PROJECT_DIR$/site/vendor/paragonie/random_compat" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
@@ -122,6 +123,34 @@
               <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
@@ -165,17 +194,17 @@
       <option name="presentableId" value="Default" />
       <updated>1519997066335</updated>
       <workItem from="1519997071715" duration="889000" />
-      <workItem from="1519997983086" duration="99000" />
+      <workItem from="1519997983086" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="988000" />
+    <option name="totallyTimeSpent" value="1712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -232,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="681">
+          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding />
         </state>
       </provider>

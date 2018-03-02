@@ -1,0 +1,1 @@
+2018/03/02 13:49:04 [error] 6#6: *58 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: margiela.dev, request: "GET /app_dev.php/sign-in HTTP/1.1", upstream: "fastcgi://172.28.0.4:9000", host: "192.168.99.100:8082"
