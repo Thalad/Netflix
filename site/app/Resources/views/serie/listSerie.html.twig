@@ -1,28 +1,13 @@
 {% extends "inc/layout.html.twig" %}
 
 {% block content %}
-    <h1>Séries</h1>
-    <a href="{{ path('logout') }}">logout</a>
-    <a href="{{ path('categorySerie_page') }}">GENRE</a>
-    {% for serie in series %}
-
-        <h2><a href="{{ path('serie_view', {'id': serie.id}) }}">{{ serie.name }}</a></h2>
-
-    {% endfor %}
-{% endblock %}
-
-
-{% extends "inc/layout.html.twig" %}
-
-{% block content %}
-    <h1>Films</h1><a href="{{ path('categoryFilm_page') }}">Catégorie</a>
+    <h1>Films</h1><a href="{{ path('categorySerie_page') }}">Catégorie</a>
     <div class="row list">
         {% for serie in series %}
             <div class="col-md-4">
-                <img src="{{ asset('uploads/images/' ~ film.image) }}" alt="{{ film.image }}"/>
-                <h2>{{ film.name }}</h2>
-                <p>{{ film.description }}</p>
-                <a href="{{ path('film_view', {'id': film.id}) }}">Detail du film</a>
+                <a href="{{ path('serie_view', {'id': serie.id}) }}"><h2>{{ serie.name }}</h2></a>
+                <p>{{ serie.description }}</p>
+                <a href="{{ path('film_view', {'id': serie.id}) }}">Detail du film</a>
             </div>
         {% endfor %}
     </div>
