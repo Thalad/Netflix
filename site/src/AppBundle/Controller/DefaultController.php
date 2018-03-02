@@ -28,7 +28,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/films", name="films_list")
+     * @Route("/home/films", name="films_list")
      */
     public function listFilm()
     {
@@ -42,7 +42,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/searchFilms", name="films_search")
+     * @Route("/home/searchFilms", name="films_search")
      */
     public function searchFilms()
     {
@@ -67,7 +67,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/films/{id}", name="film_view", requirements={"id"="\d+"})
+     * @Route("/home/films/{id}", name="film_view", requirements={"id"="\d+"})
      */
     public function viewFilm($id)
     {
@@ -90,7 +90,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/series", name="series_list")
+     * @Route("/home/series", name="series_list")
      */
     public function listSerie()
     {
@@ -103,7 +103,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/series/{id}", name="serie_view", requirements={"id"="\d+"})
+     * @Route("/home/series/{id}", name="serie_view", requirements={"id"="\d+"})
      */
     public function viewSerie($id)
     {
@@ -116,7 +116,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("films/category/{id}", name="categoryFilm_view", requirements={"id"="\d+"})
+     * @Route("/films/category/{id}", name="categoryFilm_view", requirements={"id"="\d+"})
      */
     public function viewCategoryFilm($id)
     {
@@ -129,7 +129,7 @@ class DefaultController extends Controller
     }
 
     /**
- * @Route("series/category/{id}", name="categorySerie_view", requirements={"id"="\d+"})
+ * @Route("/series/category/{id}", name="categorySerie_view", requirements={"id"="\d+"})
  */
     public function viewCategorySerie($id)
     {
@@ -143,7 +143,7 @@ class DefaultController extends Controller
 
 
     /**
-     * @Route("films/category", name="categoryFilm_page")
+     * @Route("/home/films/category", name="categoryFilm_page")
      */
 
     public function categoryFilm()
@@ -157,7 +157,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("series/category", name="categorySerie_page")
+     * @Route("/home/series/category", name="categorySerie_page")
      */
 
     public function categorySerie()
@@ -168,6 +168,15 @@ class DefaultController extends Controller
         return $this->render('category/categorySerie.html.twig', [
             'category' => $category
         ]);
+    }
+
+    /**
+     * @Route("/home", name="home_page")
+     */
+
+    public function homePage()
+    {
+        return $this->render('home/home.html.twig');
     }
 
 }
