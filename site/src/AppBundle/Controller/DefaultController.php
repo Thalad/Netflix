@@ -87,12 +87,12 @@ class DefaultController extends Controller
     /**
      * @Route("films/category/{id}", name="categoryFilm_view", requirements={"id"="\d+"})
      */
-    public function categoryFilm($id)
+    public function viewCategoryFilm($id)
     {
         $em = $this->getDoctrine()->getManager();
         $category = $em->getRepository(Category:: class)
             ->find($id);
-        return $this->render('category/categoryFilm.html.twig', [
+        return $this->render('category/categoryFilmView.html.twig', [
             'category' => $category
         ]);
     }
@@ -100,23 +100,43 @@ class DefaultController extends Controller
     /**
  * @Route("series/category/{id}", name="categorySerie_view", requirements={"id"="\d+"})
  */
-    public function categorySerie($id)
+    public function viewCategorySerie($id)
     {
         $em = $this->getDoctrine()->getManager();
         $category = $em->getRepository(Category:: class)
             ->find($id);
-        return $this->render('category/categorySerie.html.twig', [
+        return $this->render('category/categorySerieView.html.twig', [
+            'category' => $category
+        ]);
+    }
+
+
+    /**
+     * @Route("films/category", name="categoryFilm_page")
+     */
+
+    public function categoryFilm()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $category = $em->getRepository(Category:: class)
+            ->findAll();
+        return $this->render('category/categoryFilm.html.twig', [
             'category' => $category
         ]);
     }
 
     /**
-     * @Route("/films/", name="admin_page")
+     * @Route("series/category", name="categorySerie_page")
      */
 
-    /**public function adminPage()
+    public function categorySerie()
     {
-        return $this->render('admin/homePageAdmin.html.twig');
-    }*/
+        $em = $this->getDoctrine()->getManager();
+        $category = $em->getRepository(Category:: class)
+            ->findAll();
+        return $this->render('category/categorySerie.html.twig', [
+            'category' => $category
+        ]);
+    }
 
 }

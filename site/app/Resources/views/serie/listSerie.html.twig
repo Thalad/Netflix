@@ -3,8 +3,10 @@
 {% block content %}
     <h1>Liste des series</h1>
     <a href="{{ path('logout') }}">logout</a>
+    <a href="{{ path('categorySerie_page') }}">GENRE</a>
     {% for serie in series %}
-        <h2>{{ serie.name }}</h2>
-        <a href="{{ path('serie_view', {'id': serie.id}) }}">Detail de la serie</a>
+
+        <h2><a href="{{ path('serie_view', {'id': serie.id}) }}">{{ serie.name }}</a></h2>
+
     {% endfor %}
 {% endblock %}

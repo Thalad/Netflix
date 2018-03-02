@@ -1,79 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbdef34e-9d61-4594-80f8-70f6e877ac8f" name="Default" comment="">
-<<<<<<< HEAD
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/src/AppBundle/DataFixtures/CategoryFixtures.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/src/AppBundle/Entity/Category.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/src/AppBundle/Form/FilmType2.php" />
-=======
-<<<<<<< HEAD
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Netflix-me.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="7dac0e43-2135-41e4-9942-42c0abe42692" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/site/app/Resources/views/category/categoryFilmView.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/site/app/Resources/views/category/categorySerieView.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/site/src/AppBundle/Form/CategoryType.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/Netflix-me.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/Netflix.iml" afterPath="$PROJECT_DIR$/.idea/Netflix.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" afterPath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" />
-      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/symfony_error.log" afterPath="$PROJECT_DIR$/docker/logs/nginx/symfony_error.log" />
+      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/access.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/error.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/symfony_error.log" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docker/logs/symfony/dev.log" afterPath="$PROJECT_DIR$/docker/logs/symfony/dev.log" />
-=======
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Netflix.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/app/Resources/views/admin/add.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/src/AppBundle/Controller/AdminController.php" />
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" afterPath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" />
-      <change beforePath="$PROJECT_DIR$/docker/logs/symfony/dev.log" afterPath="$PROJECT_DIR$/docker/logs/symfony/dev.log" />
+      <change beforePath="$PROJECT_DIR$/site/app/Resources/views/category/categoryFilm.html.twig" afterPath="$PROJECT_DIR$/site/app/Resources/views/category/categoryFilm.html.twig" />
+      <change beforePath="$PROJECT_DIR$/site/app/Resources/views/category/categorySerie.html.twig" afterPath="$PROJECT_DIR$/site/app/Resources/views/category/categorySerie.html.twig" />
+      <change beforePath="$PROJECT_DIR$/site/app/Resources/views/film/listFilm.html.twig" afterPath="$PROJECT_DIR$/site/app/Resources/views/film/listFilm.html.twig" />
+      <change beforePath="$PROJECT_DIR$/site/app/Resources/views/serie/listSerie.html.twig" afterPath="$PROJECT_DIR$/site/app/Resources/views/serie/listSerie.html.twig" />
+      <change beforePath="$PROJECT_DIR$/site/src/AppBundle/Controller/AdminController.php" afterPath="$PROJECT_DIR$/site/src/AppBundle/Controller/AdminController.php" />
       <change beforePath="$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php" afterPath="$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php" />
-      <change beforePath="$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php" afterPath="$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php" />
-=======
-      <change beforePath="$PROJECT_DIR$/site/src/AppBundle/Entity/User.php" afterPath="$PROJECT_DIR$/site/src/AppBundle/Entity/User.php" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
     </list>
-    <ignored path="$PROJECT_DIR$/site/vendor/composer/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/annotations/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/cache/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/collections/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/common/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/data-fixtures/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/dbal/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/doctrine-bundle/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/doctrine-cache-bundle/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/doctrine-fixtures-bundle/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/inflector/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/instantiator/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/lexer/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/doctrine/orm/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/fig/link-util/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/incenteev/composer-parameter-handler/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/jdorn/sql-formatter/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/monolog/monolog/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/paragonie/random_compat/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/psr/cache/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/psr/container/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/psr/link/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/psr/log/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/psr/simple-cache/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/sensio/distribution-bundle/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/sensio/framework-extra-bundle/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/sensio/generator-bundle/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/sensiolabs/security-checker/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/swiftmailer/swiftmailer/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/monolog-bundle/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/phpunit-bridge/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/polyfill-apcu/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/polyfill-intl-icu/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/polyfill-mbstring/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/polyfill-php56/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/polyfill-php70/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/polyfill-util/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/swiftmailer-bundle/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/symfony/symfony/" />
-    <ignored path="$PROJECT_DIR$/site/vendor/twig/twig/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,254 +30,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-=======
   <component name="ComposerSettings" doNotAsk="true">
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
     <pharConfigPath>$PROJECT_DIR$/site/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="800">
-              <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserFixtures.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-=======
-<<<<<<< HEAD
-            <state relative-caret-position="289">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-=======
-            <state relative-caret-position="603">
-              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-              <folding>
-                <element signature="e#41#67#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#66#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addFilm.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/app/Resources/views/film/addFilm.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilmType2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Form/FilmType2.php">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="300">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-=======
-            <state relative-caret-position="681">
-              <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Form/Register.php">
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="FilmFixtures.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/FilmFixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/User.php">
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#33#59#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Film.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <element signature="e#36#49#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryFixtures.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/CategoryFixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="425">
-              <caret line="20" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
-              <folding>
-                <element signature="e#41#71#0#PHP" expanded="true" />
-              </folding>
-=======
-            <state relative-caret-position="125">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="UserFixtures.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-166">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="RegistrationController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/RegistrationController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-=======
-      <file leaf-file-name="Film.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-=======
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="59" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-<<<<<<< HEAD
-      <find>filmty</find>
-      <find>form</find>
-      <find>film</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\hamza\Desktop\Netflix</dir>
-    </dirStrings>
-=======
-      <find>abstract</find>
-    </findStrings>
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/site/.gitignore" />
-        <option value="$PROJECT_DIR$/docker/logs/nginx/symfony_error.log" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/site/app/config/parameters.yml" />
-=======
-        <option value="$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php" />
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-        <option value="$PROJECT_DIR$/site/app/Resources/views/admin/add.html.twig" />
-        <option value="$PROJECT_DIR$/site/src/AppBundle/Controller/AdminController.php" />
-        <option value="$PROJECT_DIR$/site/app/Resources/views/film/viewFilm.html.twig" />
-        <option value="$PROJECT_DIR$/site/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/site/src/AppBundle/Entity/User.php" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/site/src/AppBundle/DataFixtures/CategoryFixtures.php" />
-        <option value="$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php" />
-        <option value="$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php" />
-        <option value="$PROJECT_DIR$/site/src/AppBundle/Entity/Category.php" />
-        <option value="$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/site/src/AppBundle/Form/FilmType.php" />
-=======
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -338,15 +47,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
-<<<<<<< HEAD
-      <path value="$PROJECT_DIR$/site/vendor/composer" />
-      <path value="$PROJECT_DIR$/site/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php56" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-util" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/symfony" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php70" />
-      <path value="$PROJECT_DIR$/site/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/site/vendor/fig/link-util" />
       <path value="$PROJECT_DIR$/site/vendor/psr/container" />
       <path value="$PROJECT_DIR$/site/vendor/psr/cache" />
@@ -379,62 +79,22 @@
       <path value="$PROJECT_DIR$/site/vendor/incenteev/composer-parameter-handler" />
       <path value="$PROJECT_DIR$/site/vendor/sensiolabs/security-checker" />
       <path value="$PROJECT_DIR$/site/vendor/swiftmailer/swiftmailer" />
-    </include_path>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="736" />
-=======
-      <path value="$PROJECT_DIR$/site/vendor/swiftmailer/swiftmailer" />
-      <path value="$PROJECT_DIR$/site/vendor/sensiolabs/security-checker" />
-      <path value="$PROJECT_DIR$/site/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/site/vendor/incenteev/composer-parameter-handler" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/doctrine-fixtures-bundle" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/data-fixtures" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/orm" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/site/vendor/doctrine/doctrine-cache-bundle" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php70" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/symfony" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/monolog-bundle" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-util" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php56" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/swiftmailer-bundle" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-intl-icu" />
-      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-apcu" />
-      <path value="$PROJECT_DIR$/site/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/site/vendor/sensio/generator-bundle" />
-      <path value="$PROJECT_DIR$/site/vendor/sensio/distribution-bundle" />
-      <path value="$PROJECT_DIR$/site/vendor/sensio/framework-extra-bundle" />
-      <path value="$PROJECT_DIR$/site/vendor/jdorn/sql-formatter" />
-      <path value="$PROJECT_DIR$/site/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/site/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/site/vendor/psr/link" />
-      <path value="$PROJECT_DIR$/site/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/site/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/site/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/site/vendor/fig/link-util" />
       <path value="$PROJECT_DIR$/site/vendor/composer" />
+      <path value="$PROJECT_DIR$/site/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/site/vendor/paragonie/random_compat" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1042" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1030" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -450,79 +110,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="Scratches" />
       <pane id="Scope" />
-=======
-<<<<<<< HEAD
-      <pane id="Scope" />
-      <pane id="Scratches" />
-=======
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-<<<<<<< HEAD
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DataFixtures" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-=======
               <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -531,104 +127,17 @@
               <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="film" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
-            </path>
-            <path>
-              <item name="Netflix-me" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix-me" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-<<<<<<< HEAD
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-=======
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DataFixtures" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
-            </path>
-            <path>
-              <item name="Netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Netflix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-      <pane id="Scope" />
       <pane id="Scratches" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hamza\Desktop\Netflix\site\src\AppBundle\Form" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -650,99 +159,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cbdef34e-9d61-4594-80f8-70f6e877ac8f" name="Default" comment="" />
-      <created>1519723382213</created>
+      <changelist id="7dac0e43-2135-41e4-9942-42c0abe42692" name="Default" comment="" />
+      <created>1519997066335</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1519723382213</updated>
-<<<<<<< HEAD
-      <workItem from="1519723383508" duration="1462000" />
-      <workItem from="1519725704900" duration="36000" />
-      <workItem from="1519725741524" duration="2014000" />
-=======
-      <workItem from="1519723383508" duration="2025000" />
-<<<<<<< HEAD
-      <workItem from="1519725810370" duration="12922000" />
-      <workItem from="1519805869342" duration="1139000" />
-      <workItem from="1519807182408" duration="54000" />
-=======
-      <workItem from="1519725810370" duration="9483000" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
+      <updated>1519997066335</updated>
+      <workItem from="1519997071715" duration="889000" />
+      <workItem from="1519997983086" duration="99000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="16140000" />
+    <option name="totallyTimeSpent" value="988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="1" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="3512000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="733" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="11508000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="0" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-<<<<<<< HEAD
-=======
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -755,344 +206,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="425">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#41#67#0#PHP" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="289">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1075">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#66#0#PHP" expanded="true" />
-          </folding>
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-=======
-        <state relative-caret-position="125">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/Resources/views/film/addFilm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Form/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/CategoryFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#41#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Form/FilmType2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#41#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/CategoryFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#41#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/Resources/views/film/viewFilm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5325">
-          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Form/FilmType2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/logs/nginx/symfony_error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/Resources/views/admin/add.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5325">
-          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/Resources/views/film/viewFilm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/CategoryFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#41#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#41#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/Resources/views/film/addFilm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/var/cache/dev/twig/08/08e2548154d8c2a243e6f9fcc8266d4cfeb4583d35a2a627a62f3df715e1e221.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="2017" column="5" lean-forward="false" selection-start-line="2017" selection-start-column="5" selection-end-line="2017" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Form/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-          <folding>
-            <element signature="e#33#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-=======
->>>>>>> 562634130e5ebe48df5838c77a853d643d0c0251
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/logs/nginx/symfony_error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/config/routing_dev.yml">
+    <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1102,80 +224,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/UserFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Form/Filmtype1.php" />
-    <entry file="file://$PROJECT_DIR$/docker/logs/symfony/prod.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="1500" column="204" lean-forward="false" selection-start-line="1500" selection-start-column="204" selection-end-line="1500" selection-end-column="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Form/FilmType2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-=======
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/DataFixtures/FilmFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/site/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/AppBundle/Entity/Film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> 55a6cfae3bfd41d645fa1186b8cfb7b6c1617bbb
           <folding />
         </state>
       </provider>

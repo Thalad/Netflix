@@ -3,8 +3,10 @@
 {% block content %}
     <h1>Liste des films</h1>
     <a href="{{ path('logout') }}">logout</a>
+    <a href="{{ path('categoryFilm_page') }}">GENRE</a>
     {% for film in films %}
-        <h2>{{ film.name }}</h2>
-        <a href="{{ path('film_view', {'id': film.id}) }}">Detail du film</a>
+
+        <h2><a href="{{ path('film_view', {'id': film.id}) }}">{{ film.name }}</a></h2>
+
     {% endfor %}
 {% endblock %}

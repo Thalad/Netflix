@@ -1,0 +1,12 @@
+{% extends "inc/layout.html.twig" %}
+
+{% block content %}
+
+    <h3>GENRE : {{ category.label }}</h3>
+    {% for serie in category.series %}
+
+        <h3><a href="{{ path('serie_view', {'id': serie.id}) }}">{{ serie.name }}</a></h3>
+
+    {% endfor %}
+
+{% endblock %}
