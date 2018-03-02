@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2018/01/29 21:10:28 [crit] 6#6: *29 realpath() "/var/www/symfony/web" failed (2: No such file or directory), client: 172.22.0.1, server: margiela.dev, request: "GET /api/config HTTP/1.1", host: "192.168.0.15"
 2018/01/29 21:10:28 [error] 6#6: *29 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.22.0.1, server: margiela.dev, request: "GET /api/config HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "192.168.0.15"
 2018/02/26 10:39:56 [error] 5#5: *15 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: margiela.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.25.0.4:9000", host: "localhost:8082"
@@ -48,3 +49,6 @@
 2018/03/02 11:35:47 [error] 5#5: *954 client intended to send too large body: 22340023 bytes, client: 172.26.0.1, server: margiela.dev, request: "POST /app_dev.php/admin/filmAdd HTTP/1.1", host: "localhost:8082", referrer: "http://localhost:8082/app_dev.php/admin/filmAdd"
 2018/03/02 13:19:53 [error] 5#5: *957 client intended to send too large body: 22477647 bytes, client: 172.26.0.1, server: margiela.dev, request: "POST /app_dev.php/admin/filmAdd HTTP/1.1", host: "localhost:8082", referrer: "http://localhost:8082/app_dev.php/admin/filmAdd"
 2018/03/02 13:21:42 [error] 5#5: *968 client intended to send too large body: 62950665 bytes, client: 172.26.0.1, server: margiela.dev, request: "POST /app_dev.php/admin/filmAdd HTTP/1.1", host: "localhost:8082", referrer: "http://localhost:8082/app_dev.php/admin/filmAdd"
+=======
+2018/03/02 13:49:04 [error] 6#6: *58 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: margiela.dev, request: "GET /app_dev.php/sign-in HTTP/1.1", upstream: "fastcgi://172.28.0.4:9000", host: "192.168.99.100:8082"
+>>>>>>> 8ccd4f5696bc2a8393291217ab11b6c618579625

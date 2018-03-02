@@ -1,0 +1,10 @@
+{% extends "inc/layout.html.twig" %}
+
+{% block content %}
+    <h1>Liste des genres</h1>
+    <a href="{{ path('logout') }}">logout</a>
+    {% for category in category %}
+
+        <a href="{{ path('categorySerie_view', {'id': category.id}) }}">{{ category.label }}</a>
+    {% endfor %}
+{% endblock %}

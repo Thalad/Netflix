@@ -2,9 +2,11 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Category;
 use AppBundle\Entity\Film;
 use AppBundle\Form\searchFilms;
 use AppBundle\Repository\FilmRepository;
+use AppBundle\Entity\Serie;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -28,7 +30,7 @@ class DefaultController extends Controller
     /**
      * @Route("/films", name="films_list")
      */
-    public function listAction()
+    public function listFilm()
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -67,7 +69,7 @@ class DefaultController extends Controller
     /**
      * @Route("/films/{id}", name="film_view", requirements={"id"="\d+"})
      */
-    public function viewAction($id)
+    public function viewFilm($id)
     {
         $em = $this->getDoctrine()->getManager();
         $film = $em->getRepository(Film:: class)
@@ -85,6 +87,87 @@ class DefaultController extends Controller
             'action', 'drame', 'horreur', 'comique', 'categorie 1', 'categorie 2'
         ];
         return $this->render('inc/menuCategories.html.twig', ['categories' => $categories]);
+    }
+
+    /**
+     * @Route("/series", name="series_list")
+     */
+    public function listSerie()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $series = $em->getRepository(Serie:: class)
+            ->findAll();
+        return $this->render('serie/listSerie.html.twig', [
+            'series' => $series
+        ]);
+    }
+
+    /**
+     * @Route("/series/{id}", name="serie_view", requirements={"id"="\d+"})
+     */
+    public function viewSerie($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $serie = $em->getRepository(Serie:: class)
+            ->find($id);
+        return $this->render('serie/viewSerie.html.twig', [
+            'serie' => $serie
+        ]);
+    }
+
+    /**
+     * @Route("films/category/{id}", name="categoryFilm_view", requirements={"id"="\d+"})
+     */
+    public function viewCategoryFilm($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $category = $em->getRepository(Category:: class)
+            ->find($id);
+        return $this->render('category/categoryFilmView.html.twig', [
+            'category' => $category
+        ]);
+    }
+
+    /**
+ * @Route("series/category/{id}", name="categorySerie_view", requirements={"id"="\d+"})
+ */
+    public function viewCategorySerie($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $category = $em->getRepository(Category:: class)
+            ->find($id);
+        return $this->render('category/categorySerieView.html.twig', [
+            'category' => $category
+        ]);
+    }
+
+
+    /**
+     * @Route("films/category", name="categoryFilm_page")
+     */
+
+    public function categoryFilm()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $category = $em->getRepository(Category:: class)
+            ->findAll();
+        return $this->render('category/categoryFilm.html.twig', [
+            'category' => $category
+        ]);
+    }
+
+    /**
+     * @Route("series/category", name="categorySerie_page")
+     */
+
+    public function categorySerie()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $category = $em->getRepository(Category:: class)
+            ->findAll();
+        return $this->render('category/categorySerie.html.twig', [
+            'category' => $category
+        ]);
     }
 
 }
