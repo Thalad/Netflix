@@ -65,6 +65,15 @@ form button {
 /* End Header */
 
 
+/* List */
+.list {
+    width:100%;
+}
+.list .col-md-4 img {
+    width: 100%;
+}
+/* End List */
+
 /* Footer */
 footer {
     background-color: #000000;
