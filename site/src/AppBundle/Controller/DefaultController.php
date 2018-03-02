@@ -3,9 +3,14 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Film;
+use AppBundle\Form\searchFilms;
+use AppBundle\Repository\FilmRepository;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class DefaultController extends Controller
 {
@@ -26,10 +31,36 @@ class DefaultController extends Controller
     public function listAction()
     {
         $em = $this->getDoctrine()->getManager();
+
         $films = $em->getRepository(Film:: class)
             ->findAll();
         return $this->render('film/listFilm.html.twig', [
-            'films' => $films
+            'films' => $films,
+        ]);
+    }
+
+    /**
+     * @Route("/searchFilms", name="films_search")
+     */
+    public function searchFilms()
+    {
+
+        $em = $this->getDoctrine()->getManager();
+
+        /** @var FilmRepository $filmRepository */
+        $filmRepository = $em->getRepository(Film::class);
+
+        $search = $filmRepository->searchProject('parker');
+
+        $form = $this->createFormBuilder($search)
+            ->add('film', TextType:: class)
+            ->add('search', SubmitType:: class, ['label' => 'Chercher un Film'])
+            ->getForm();
+
+        //$form = $this->createForm(searchFilms);
+
+        return $this->render('inc/header.html.twig', [
+            'form' => $form->createView()
         ]);
     }
 

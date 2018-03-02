@@ -11,7 +11,7 @@ class CategoryFixtures extends Fixture{
     public function load(ObjectManager $manager){
         $category = new Category();
         $category
-            ->setLabel('Category #1');
+            ->setLabel('Action');
 
         $manager->persist($category);
         $manager->flush();
@@ -19,7 +19,7 @@ class CategoryFixtures extends Fixture{
 
         $category2 = new Category();
         $category2
-            ->setLabel('Category #2');
+            ->setLabel('Humour');
 
         $manager->persist($category2);
         $manager->flush();
@@ -27,7 +27,7 @@ class CategoryFixtures extends Fixture{
 
         $category3 = new Category();
         $category3
-            ->setLabel('Category #3');
+            ->setLabel('Fantastique');
 
         $manager->persist($category3);
         $manager->flush();

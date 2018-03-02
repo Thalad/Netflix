@@ -2,9 +2,13 @@
 
 {% block content %}
     <h1>Liste des films</h1>
-    <a href="{{ path('logout') }}">logout</a>
-    {% for film in films %}
-        <h2>{{ film.name }}</h2>
-        <a href="{{ path('film_view', {'id': film.id}) }}">Detail du film</a>
-    {% endfor %}
+    <div class="row">
+        {% for film in films %}
+            <div class="col-md-4">
+                <h2>{{ film.name }}</h2>
+                <img src="{{ asset('uploads/images/' ~ film.image) }}" alt="{{ film.image }}"/>
+                <a href="{{ path('film_view', {'id': film.id}) }}">Detail du film</a>
+            </div>
+        {% endfor %}
+    </div>
 {% endblock %}

@@ -11,6 +11,7 @@ use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
 
 
@@ -27,6 +28,25 @@ class AdminController extends Controller
 
         if ($form->isSubmitted() && $form->isValid()) {
 
+            /** @var UploadedFile $file */
+            $file = $film->getImage();
+            $fileName = $this->generateUniqueFileName().'.'.$file->guessExtension();
+            $file->move(
+                $this->getParameter('images_directory'),
+                $fileName
+            );
+            $film->setImage($fileName);
+
+            /** @var UploadedFile $video */
+            $video = $film->getVideo();
+            $videoName = $this->generateUniqueFileName().'.'.$video->guessExtension();
+            $video->move(
+                $this->getParameter('videos_directory'),
+                $videoName
+            );
+            $film->setVideo($videoName);
+
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($film);
             $em->flush();
@@ -35,5 +55,13 @@ class AdminController extends Controller
         return $this->render('admin/add.html.twig', [
             'form' => $form->createView()
         ]);
+    }
+
+    /**
+     * @return string
+     */
+    private function generateUniqueFileName()
+    {
+        return md5(uniqid());
     }
 }
