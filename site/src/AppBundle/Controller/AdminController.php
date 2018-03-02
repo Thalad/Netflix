@@ -36,7 +36,7 @@ class AdminController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->persist($film);
             $em->flush();
-            return $this->redirectToRoute( 'films_list');
+            return $this->redirectToRoute( 'admin_page');
         }
         return $this->render('admin/add.html.twig', [
             'form' => $form->createView()
@@ -58,7 +58,7 @@ class AdminController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->persist($serie);
             $em->flush();
-            return $this->redirectToRoute( 'series_list');
+            return $this->redirectToRoute( 'admin_page');
         }
         return $this->render('admin/add.html.twig', [
             'form' => $form->createView()
@@ -80,7 +80,7 @@ class AdminController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->persist($season);
             $em->flush();
-            return $this->redirectToRoute( 'series_list');
+            return $this->redirectToRoute( 'admin_page');
         }
         return $this->render('admin/add.html.twig', [
             'form' => $form->createView()
@@ -102,10 +102,19 @@ class AdminController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->persist($episode);
             $em->flush();
-            return $this->redirectToRoute( 'series_list');
+            return $this->redirectToRoute( 'admin_page');
         }
         return $this->render('admin/add.html.twig', [
             'form' => $form->createView()
         ]);
+    }
+
+    /**
+     * @Route("/admin", name="admin_page")
+     */
+
+    public function adminPage()
+    {
+        return $this->render('admin/homePageAdmin.html.twig');
     }
 }

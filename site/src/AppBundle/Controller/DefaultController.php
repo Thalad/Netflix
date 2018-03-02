@@ -2,6 +2,7 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Category;
 use AppBundle\Entity\Film;
 use AppBundle\Entity\Serie;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -24,7 +25,7 @@ class DefaultController extends Controller
     /**
      * @Route("/films", name="films_list")
      */
-    public function listAction()
+    public function listFilm()
     {
         $em = $this->getDoctrine()->getManager();
         $films = $em->getRepository(Film:: class)
@@ -37,7 +38,7 @@ class DefaultController extends Controller
     /**
      * @Route("/films/{id}", name="film_view", requirements={"id"="\d+"})
      */
-    public function viewAction($id)
+    public function viewFilm($id)
     {
         $em = $this->getDoctrine()->getManager();
         $film = $em->getRepository(Film:: class)
@@ -60,7 +61,7 @@ class DefaultController extends Controller
     /**
      * @Route("/series", name="series_list")
      */
-    public function listSerieAction()
+    public function listSerie()
     {
         $em = $this->getDoctrine()->getManager();
         $series = $em->getRepository(Serie:: class)
@@ -73,7 +74,7 @@ class DefaultController extends Controller
     /**
      * @Route("/series/{id}", name="serie_view", requirements={"id"="\d+"})
      */
-    public function viewSerieAction($id)
+    public function viewSerie($id)
     {
         $em = $this->getDoctrine()->getManager();
         $serie = $em->getRepository(Serie:: class)
@@ -82,4 +83,40 @@ class DefaultController extends Controller
             'serie' => $serie
         ]);
     }
+
+    /**
+     * @Route("films/category/{id}", name="categoryFilm_view", requirements={"id"="\d+"})
+     */
+    public function categoryFilm($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $category = $em->getRepository(Category:: class)
+            ->find($id);
+        return $this->render('category/categoryFilm.html.twig', [
+            'category' => $category
+        ]);
+    }
+
+    /**
+ * @Route("series/category/{id}", name="categorySerie_view", requirements={"id"="\d+"})
+ */
+    public function categorySerie($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $category = $em->getRepository(Category:: class)
+            ->find($id);
+        return $this->render('category/categorySerie.html.twig', [
+            'category' => $category
+        ]);
+    }
+
+    /**
+     * @Route("/films/", name="admin_page")
+     */
+
+    /**public function adminPage()
+    {
+        return $this->render('admin/homePageAdmin.html.twig');
+    }*/
+
 }

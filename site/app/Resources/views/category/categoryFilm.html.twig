@@ -1,0 +1,12 @@
+{% extends "inc/layout.html.twig" %}
+
+{% block content %}
+
+    <h3>GENRE : {{ category.label }}</h3>
+    {% for film in category.films %}
+
+        <h3>{{ film.name }}</h3>
+
+    {% endfor %}
+
+{% endblock %}

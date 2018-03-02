@@ -7,9 +7,9 @@
     <h3>DATE : {{ serie.date|date("d/Y") }}</h3>
     <h3>ACTEURS : {{ serie.actor }}</h3>
     <h3>NOTE : {{ serie.note }}/10</h3>
-    {% for serie in serie.seasons %}
+    {% for season in serie.seasons %}
 
-            <h3>{{ serie.label }}</h3>
+            <h3>{{ season.label }}</h3>
 
     {% endfor %}
 
