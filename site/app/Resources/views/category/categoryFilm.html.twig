@@ -2,9 +2,8 @@
 
 {% block content %}
     <h1>Liste des genres</h1>
-    <a href="{{ path('logout') }}">logout</a>
     {% for category in category %}
 
-        <a href="{{ path('categoryFilm_view', {'id': category.id}) }}">{{ category.label }}</a>
+        <a class="button marginTopBottom" href="{{ path('categoryFilm_view', {'id': category.id}) }}">{{ category.label }}</a>
     {% endfor %}
 {% endblock %}

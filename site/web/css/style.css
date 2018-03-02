@@ -62,6 +62,38 @@ form button {
     margin-right: 1em;
     font-weight: bold;
 }
+.button {
+    background-color: red;
+    outline: none;
+    border: 0;
+    padding: .6em 2em;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    display: block;
+}
+.button:hover {
+    color:#fff;
+    text-decoration: none;
+}
+.padddingTopBottom {
+    padding: 2em 0;
+}
+.paddingBottom {
+    padding-bottom: 2em;
+}
+.paddingTop {
+    padding-top: 2em;
+}
+.marginTopBottom {
+    margin: 2em 0;
+}
+.marginBottom {
+    margin-bottom: 2em;
+}
+.marginTop {
+    margin-top: 2em;
+}
 /* End Header */
 
 
@@ -73,6 +105,7 @@ form button {
     width: 100%;
 }
 /* End List */
+
 
 /* Footer */
 footer {

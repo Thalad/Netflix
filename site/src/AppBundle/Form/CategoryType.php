@@ -17,6 +17,6 @@ class CategoryType extends AbstractType
 
         $builder
             ->add('label', TextType:: class)
-            ->add('save', SubmitType:: class, ['label' => 'Ajouter un épisode']);
+            ->add('save', SubmitType:: class, ['label' => 'Ajouter une catégorie']);
     }
 }

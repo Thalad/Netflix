@@ -27,6 +27,6 @@ class SeriesType extends AbstractType
                 'class' => 'AppBundle:Category',
                 'choice_label' => 'label',
             ))
-            ->add('save', SubmitType:: class, ['label' => 'Ajouter une serie']);
+            ->add('save', SubmitType:: class, ['label' => 'Ajouter une série']);
     }
 }
